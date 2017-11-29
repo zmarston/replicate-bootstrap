@@ -1,6 +1,5 @@
 body{
-  background-color: #292b2ce0;
-  color: white;
+background: linear-gradient(to right, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);  color: white;
 }
 nav img {
   width: 30%;
@@ -12,7 +11,7 @@ nav img {
   overflow: hidden;
   width: 98vw;
   padding: 0;
-
+  max-width: 1800px;
 }
 nav{
   margin-bottom: 3vh;
@@ -31,8 +30,18 @@ padding: 3vw;
   border: 1px solid black;
   padding: 1vw;
   text-align: center;
+  background-color: #292b2c;
 }
 .left-bottom{
   padding: 3vh;
   border-bottom: solid black 1px;
+}
+.link {
+padding-top: 5%;
+}
+
+@media screen and (min-width:1800px) {
+  .container {
+    max-width: 1800px;
+  }
 }
