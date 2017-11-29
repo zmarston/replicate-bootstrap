@@ -1,0 +1,30 @@
+nav img {
+  width: 30%;
+}
+.movie-poster, .theater {
+  width: 100%;
+}
+.container{
+  overflow: hidden;
+  width: 98vw;
+  padding: 0;
+
+}
+nav{
+  margin-bottom: 3vh;
+}
+.navbar{
+padding: 3vw;
+}
+.left-row{
+  border: solid black 1px;
+  padding: 1vw;
+}
+.showtimes{
+  border-right: 1px solid black;
+}
+.buy-tickets{
+  border: 1px solid black;
+  padding: 1vw;
+  text-align: center;
+}
