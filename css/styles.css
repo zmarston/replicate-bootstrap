@@ -1,3 +1,7 @@
+body{
+  background-color: #292b2ce0;
+  color: white;
+}
 nav img {
   width: 30%;
 }
@@ -27,4 +31,8 @@ padding: 3vw;
   border: 1px solid black;
   padding: 1vw;
   text-align: center;
+}
+.left-bottom{
+  padding: 3vh;
+  border-bottom: solid black 1px;
 }
